@@ -1,10 +1,11 @@
-class Aluno {
+namespace ProjEscola {
+    class Aluno {
         private int id;
         private string nome;
 
-        public string Id{
+        public int Id{
             get {return id;}
-            set {name = id;}
+            set {id = value;}
         }
 
         public string Nome{
@@ -15,4 +16,5 @@ class Aluno {
         public bool podeMatricular(Cursos cursos){
 
         }
-    }
+    }   
+}
